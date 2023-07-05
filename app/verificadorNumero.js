@@ -1,6 +1,5 @@
 function verificaChute(numeroChute) {
     const numero = +numeroChute;
-    const audio = new Audio('TunePocket-Level-Up-Game-Sound-1-Preview.mp3');
     if (verificaSeNaoENumero(numero)){
         textoChute.innerHTML += `</br><div class="mensagem__computador">Valor inválido. Fale um número.</div>`;
         return
@@ -10,7 +9,6 @@ function verificaChute(numeroChute) {
         return
     }
     if (numero===numeroSecreto){
-        audio.play();
         document.body.innerHTML = `
         <div class="telaVencer">
             <div class="telaVencer__conteudo">
