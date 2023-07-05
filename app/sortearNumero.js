@@ -6,7 +6,6 @@ const textoHtmlMaiorValor = document.getElementById('maior-valor');
 textoHtmlMenorValor.innerHTML = menorValor;
 textoHtmlMaiorValor.innerHTML = maiorValor;
 const numeroSecreto = sortearNumero();
-console.log(numeroSecreto);
 
 function sortearNumero() {
     let numero = -1;
