@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/quiz.svg">
+
+    <title>Número secreto</title>
+</head>
+<body>
+    <h1 class="titulo-principal">Acerte o número secreto</h1>
+    <div class="container">
+        <div class="container__titulo">
+            <h3 class="faixa-numero">O número está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>.</h3>
+        </div>
+        <div class="container__imagem">
+        <img src="imagens/dados.png" width="100%">
+        </div>
+    </div>
+    <div id="chute" class="mensagem"></br>
+        <!-- <div class="mensagem__computador">Você disse:</div>
+        <span class="box">20</span>
+        <div class="mensagem__computador">O número secreto é maior. <i class="fa-solid fa-arrow-up-long"></i></div> -->
+    </div>
+    <footer class="rodape">Feito por Valquiria Pianheri no curso da Alura.</footer>
+    <script src="app/sortearNumero.js"></script>
+    <script src="app/reconhecimentoFala.js"></script>
+    <script src="app/verificadorNumero.js"></script>
+</body>
+</html>

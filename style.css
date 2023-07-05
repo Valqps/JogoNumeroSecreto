@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Inter:wght@300;400;500;700&family=Snowburst+One&display=swap');
+
+:root {
+    --cor-fundo: #00D6DD;
+    --cor-fontes:#13140F;
+    --cor-clara: #E4FFE6;
+    --cor-sombra: #68776C;
+    --cor-destaque: #C3EB00;
+    --fonte-destaque: 'Bungee Shade', cursive;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    color: var(--cor-fontes);
+    font-weight: 400;
+    padding: 30px 3px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container__imagem {
+    width: 15%;
+    display: none;
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    text-shadow: 3px 3px var(--cor-clara);
+    font-size: 2em;
+    padding: 60px 0 20px 0;
+}
+
+h2 {
+    font-family: var(--fonte-destaque);
+    text-shadow: 3px 3px var(--cor-clara);
+    font-size: 1.5em;
+    padding: 60px 0 20px 0; 
+    margin-bottom: 30px;
+
+}
+
+h3 {
+    font-size: 1.5em;
+    padding-bottom: 40px;
+}
+
+.mensagem {
+    background-color: var(--cor-destaque);
+    margin: 0 5%;
+    border-radius: 5px;
+}
+
+.mensagem__computador {
+    padding: 20px 0;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.box {
+    font-weight: 500;
+    font-size: 2em;
+    padding: 5px;
+    border: 2px dotted var(--cor-fontes);
+    border-radius: 5px;
+    box-shadow: 5px 5px var(--cor-clara);
+}
+
+.telaVencer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.telaVencer__conteudo {
+    text-align: center;
+}
+
+.rodape {
+    padding: 50px 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.botaoJogarNovamente {
+    border: 1px solid var(--cor-fontes);
+    background-color: var(--cor-destaque);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: var(--cor-fontes);
+    box-shadow: 3px 3px var(--cor-clara);
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    .container__imagem {
+        display: block;
+    }
+
+    .mensagem {
+        margin: 10px 10%;
+        padding: 20px 0;
+    }
+
+    .rodape {
+        font-size: 1em;
+    }
+
+    .telaVencer {
+        flex-direction: row;
+        padding: 50px 20%;
+    }
+}
