@@ -1,4 +1,4 @@
-const menorValor = 10; /*Usar sempre números de 1 para cima, até o limite do maiorValor*/
+const menorValor = 1; /*Usar sempre números de 1 para cima, até o limite do maiorValor*/
 const maiorValor = 1000;
 const textoHtmlMenorValor = document.getElementById('menor-valor');
 const textoHtmlMaiorValor = document.getElementById('maior-valor');
