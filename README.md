@@ -8,7 +8,7 @@
 - A API pode não funcionar adequadamente no navegador Mozilla Firefox.
 
 **💻 Como o jogo foi construído?**
-- Este jogo foi construído em um curso da Alura.
+- Este jogo foi construído em um curso da Alura, sendo que o estilo foi completamente customizado por mim.
 - Para construção do jogo, foi utilizado HTML, CSS e JavaScript.
 - Foi usada a API Web Speech para reconhecimento de voz e escrita.
 
